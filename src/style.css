@@ -1,1 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card-body {
+  height: 350px;
+  width: 290px;
+}
