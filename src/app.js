@@ -44,4 +44,7 @@ window.onload = function() {
   };
 
   console.log(createCard());
+
+  const botonPickCard = document.querySelector("button");
+  botonPickCard.addEventListener("click", createCard);
 };
