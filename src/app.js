@@ -35,6 +35,12 @@ window.onload = function() {
 
     let valorCarta = document.querySelector(".valor-carta");
     valorCarta.innerHTML = valoresRandom;
+
+    if (palosRandom === "♥" || palosRandom === "♦") {
+      paloSuperior.classList.add("text-danger");
+      paloInferior.classList.add("text-danger");
+      valorCarta.classList.add("text-danger");
+    }
   };
 
   console.log(createCard());
