@@ -40,6 +40,10 @@ window.onload = function() {
       paloSuperior.classList.add("text-danger");
       paloInferior.classList.add("text-danger");
       valorCarta.classList.add("text-danger");
+    } else {
+      paloSuperior.classList.remove("text-danger");
+      paloInferior.classList.remove("text-danger");
+      valorCarta.classList.remove("text-danger");
     }
   };
 
