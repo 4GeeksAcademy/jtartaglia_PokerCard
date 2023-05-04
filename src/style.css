@@ -8,3 +8,7 @@
 .card {
   margin: 0 auto;
 }
+
+#palo-inferior {
+  transform: rotate(3.142rad);
+}
